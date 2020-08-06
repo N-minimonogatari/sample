@@ -1,0 +1,193 @@
+/* 全体 */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: AliceBlue;
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+li {
+  list-style: none;
+}
+
+/* //全体 */
+
+/* ヘッダー */
+header {
+ height: 65px;
+ width: 100%;
+ position: fixed;
+ top: 0;
+ z-index: 10;
+}
+
+ /* ヘッダーロゴ部分 */
+.header-logo {
+  font-family: "Comic Sans MS";
+  color: sandybrown;
+  font-size: 40px;
+  float: left;
+  padding: 13px 20px;
+ }
+/* //ヘッダーロゴ部分 */
+
+/* メニューバー部分 */
+* {
+  box-sizing: border-box;
+}
+
+ul li a {
+  letter-spacing: 2px;
+  font-family: "Comic Sans MS";
+  display: block;
+  color: sandybrown;
+  margin-top: 15px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+ul.menu li a:hover {
+  text-decoration: none;
+  color: LightSkyBlue;
+  transition: .3s;
+}
+
+ul.menu {
+  display: flex;
+  float: right;
+}
+
+ul.menu > li > ul {
+  display: none;
+}
+
+ul.menu li:hover a + ul {
+  display: block;
+}
+/* //メニューバー部分 */
+/* //ヘッダー */
+
+/* 写真部分 */
+.gallery-wrapper {
+  padding: 15px 0 0px 0;
+  text-align: center;
+}
+
+.gallery-wrapper h4 {
+  font-family: "Trebuchet MS";
+  font-size: 3.4rem;
+  letter-spacing: .3em;
+  color: white;
+  text-shadow: -4px 3px 0 LightSkyBlue, -8px 6px 0 white;
+}
+
+p {
+  font-family: "Trebuchet MS";
+  font-size: 30px;
+  position: relative;
+  padding: 0.25em 1em;
+  border-top: solid 3px white;
+  border-bottom: solid 3px lime;
+}
+
+p:before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: white;
+}
+
+p:after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: lime;
+}
+
+p:before {
+  left: 7px;
+}
+
+p:after {
+  right: 7px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-item {
+  width: 25%;
+}
+
+.container-item img {
+  display: block;
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.popup:focus,
+.popup:active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: auto;
+  max-width: 40vw;
+}
+/* //写真部分 */
+
+/* トップページに戻る部分 */
+#page_top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6s;
+}
+
+#page_top a {
+  position: relative;
+  display: block;
+  width: 10px;
+  height: 50px;
+  text-decoration: none;
+}
+
+#page_top a::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -20px;
+}
+/* //トップページに戻る部分 */

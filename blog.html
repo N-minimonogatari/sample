@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>N-minimonogatari</title>
+  <!-- なにか読み込む -->
+
+  <style>
+  /* 全体 */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: AliceBlue;
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+  }
+
+  @keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+  }
+
+  li {
+    list-style: none;
+  }
+
+  /* //全体 */
+
+  /* ヘッダー */
+  header {
+   height: 65px;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   z-index: 10;
+  }
+
+   /* ヘッダーロゴ部分 */
+  .header-logo {
+    font-family: "Comic Sans MS";
+    color: white;
+    font-size: 40px;
+    float: left;
+    padding: 13px 20px;
+   }
+  /* //ヘッダーロゴ部分 */
+
+  /* メニューバー部分 */
+  * {
+    box-sizing: border-box;
+  }
+
+  ul li a {
+    letter-spacing: 2px;
+    font-family: "Comic Sans MS";
+    display: block;
+    color: LightSkyBlue;
+    margin-top: 15px;
+    margin-right: 25px;
+    text-align: center;
+  }
+
+  ul.menu li a:hover {
+    text-decoration: none;
+    color: sandybrown;
+    transition: .3s;
+  }
+
+  ul.menu {
+    display: flex;
+    float: right;
+  }
+
+  ul.menu > li > ul {
+    display: none;
+  }
+
+  ul.menu li:hover a + ul {
+    display: block;
+  }
+  /* //メニューバー部分 */
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+  }
+  </style>
+</head>
+
+<body>
+<!-- ヘッダー部分 -->
+<!-- メニューバー部分 -->
+<header>
+  <div class="header-logo">N-minimonogatari</div>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html #about">About</a></li>
+    <li><a href="index.html #gallery">Gallery</a>
+      <ul>
+        <li><a href="asia.html">Asia</a></li>
+        <li><a href="oceania.html">Oceania</a></li>
+      </ul>
+    </li>
+    <li><a href="">Blog</a></li>
+  </ul>
+</header>
+<!-- //メニューバー部分 -->
+
+<!-- 文字部分 -->
+<div class="main">
+  <h1>Getting Ready<br>準備中です</h1>
+</div>
+<!-- //文字部分 -->
+
+  <footer>
+    <!-- トップページに戻る部分 -->
+    <div id="page_top">
+      <a href="#"></a>
+    </div>
+    <!-- //トップページに戻る部分 -->
+  </footer>
+  </body>
+</html>
