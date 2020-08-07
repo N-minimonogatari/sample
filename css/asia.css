@@ -2,29 +2,23 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   background-color: AliceBlue;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
 }
-
 @keyframes fadeIn {
   0% {opacity: 0}
   100% {opacity: 1}
 }
-
 @-webkit-keyframes fadeIn {
   0% {opacity: 0}
   100% {opacity: 1}
 }
-
 li {
   list-style: none;
 }
-
 /* //全体 */
-
 /* ヘッダー */
 header {
  height: 65px;
@@ -33,7 +27,6 @@ header {
  top: 0;
  z-index: 10;
 }
-
  /* ヘッダーロゴ部分 */
 .header-logo {
   font-family: "Comic Sans MS";
@@ -43,12 +36,10 @@ header {
   padding: 13px 20px;
  }
 /* //ヘッダーロゴ部分 */
-
 /* メニューバー部分 */
 * {
   box-sizing: border-box;
 }
-
 ul li a {
   letter-spacing: 2px;
   font-family: "Comic Sans MS";
@@ -59,34 +50,28 @@ ul li a {
   text-align: center;
   font-weight: bold;
 }
-
 ul.menu li a:hover {
   text-decoration: none;
   color: LightSkyBlue;
   transition: .3s;
 }
-
 ul.menu {
   display: flex;
   float: right;
 }
-
 ul.menu > li > ul {
   display: none;
 }
-
 ul.menu li:hover a + ul {
   display: block;
 }
 /* //メニューバー部分 */
 /* //ヘッダー */
-
 /* 写真部分 */
 .gallery-wrapper {
   padding: 15px 0 0px 0;
   text-align: center;
 }
-
 .gallery-wrapper h4 {
   font-family: "Trebuchet MS";
   font-size: 3.4rem;
@@ -94,7 +79,6 @@ ul.menu li:hover a + ul {
   color: white;
   text-shadow: -4px 3px 0 LightSkyBlue, -8px 6px 0 white;
 }
-
 p {
   font-family: "Trebuchet MS";
   font-size: 30px;
@@ -103,7 +87,6 @@ p {
   line-height: 1.4;
   padding: 0.25em 1em;
 }
-
 p:before, p:after {
   position: absolute;
   content: "";
@@ -111,38 +94,32 @@ p:before, p:after {
   width: 20px;
   height: 30px;
 }
-
 p:before {
   border-left: solid 3px lime;
   border-top: solid 3px lime;
   top: 0;
   left: 0;
 }
-
 p:after {
   border-right: solid 3px white;
   border-bottom: solid 3px white;
   bottom: 0;
   right: 0;
 }
-
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .container-item {
   width: 25%;
 }
-
 .container-item img {
   display: block;
   height: 250px;
   object-fit: cover;
   width: 100%;
 }
-
 .popup:focus,
 .popup:active {
   position: fixed;
@@ -155,7 +132,6 @@ p:after {
   max-width: 40vw;
 }
 /* //写真部分 */
-
 /* トップページに戻る部分 */
 #page_top {
   width: 50px;
@@ -165,7 +141,6 @@ p:after {
   bottom: 0;
   opacity: 0.6s;
 }
-
 #page_top a {
   position: relative;
   display: block;
@@ -173,7 +148,6 @@ p:after {
   height: 50px;
   text-decoration: none;
 }
-
 #page_top a::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
