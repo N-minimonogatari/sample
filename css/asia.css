@@ -57,6 +57,7 @@ ul li a {
   margin-top: 15px;
   margin-right: 25px;
   text-align: center;
+  font-weight: bold;
 }
 
 ul.menu li a:hover {

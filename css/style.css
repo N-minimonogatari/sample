@@ -57,6 +57,7 @@ ul li a {
   margin-top: 15px;
   margin-right: 25px;
   text-align: center;
+  font-weight: bold;
 }
 
 ul.menu li a:hover {
@@ -224,7 +225,7 @@ figure:hover figcaption {
 
 .container-item-img img {
   display: block;
-  height: 380px;
+  height: 300px;
   object-fit: cover;
   width: 100%;
 }
