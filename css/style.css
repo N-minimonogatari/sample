@@ -215,8 +215,6 @@ figure:hover figcaption {
 #page_top a {
   position: relative;
   display: block;
-  width: 10px;
-  height: 50px;
   text-decoration: none;
 }
 #page_top a::before {
@@ -226,8 +224,6 @@ figure:hover figcaption {
   font-size: 55px;
   color: LightSkyBlue;
   position: absolute;
-  width: 25px;
-  height: 25px;
   top: -40px;
 }
 /* //トップページに戻る部分 */
