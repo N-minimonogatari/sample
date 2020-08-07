@@ -29,8 +29,8 @@ header {
 }
  /* ヘッダーロゴ部分 */
 .header-logo {
-  font-family: "Comic Sans MS";
-  color: sandybrown;
+  font-family: "Georgia";
+  color: LightSkyBlue;
   font-size: 40px;
   float: left;
   padding: 13px 20px;
@@ -42,17 +42,18 @@ header {
 }
 ul li a {
   letter-spacing: 2px;
-  font-family: "Comic Sans MS";
+  font-family: "Georgia";
   display: block;
-  color: sandybrown;
+  color: LightSkyBlue;
   margin-top: 15px;
   margin-right: 25px;
   text-align: center;
   font-weight: bold;
+  font-size: 22px;
 }
 ul.menu li a:hover {
   text-decoration: none;
-  color: LightSkyBlue;
+  color: sandybrown;
   transition: .3s;
 }
 ul.menu {
@@ -152,7 +153,7 @@ p:after {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: '\f102';
-  font-size: 35px;
+  font-size: 55px;
   color: white;
   position: absolute;
   width: 25px;

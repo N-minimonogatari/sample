@@ -29,7 +29,7 @@ header {
 }
  /* ヘッダーロゴ部分 */
 .header-logo {
-  font-family: "Comic Sans MS";
+  font-family: "Georgia";
   color: white;
   font-size: 40px;
   float: left;
@@ -42,13 +42,14 @@ header {
 }
 ul li a {
   letter-spacing: 2px;
-  font-family: "Comic Sans MS";
+  font-family: "Georgia";
   display: block;
   color: LightSkyBlue;
   margin-top: 15px;
   margin-right: 25px;
   text-align: center;
   font-weight: bold;
+  font-size: 18px;
 }
 ul.menu li a:hover {
   text-decoration: none;
@@ -163,7 +164,7 @@ figure {
   overflow: hidden;
 }
 figcaption {
-  font-family: "Comic Sans MS";
+  font-family: "Trebuchet MS";
   text-align: center;
   color: white;
   position: absolute;
@@ -223,7 +224,7 @@ figure:hover figcaption {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: '\f102';
-  font-size: 35px;
+  font-size: 55px;
   color: LightSkyBlue;
   position: absolute;
   width: 25px;
