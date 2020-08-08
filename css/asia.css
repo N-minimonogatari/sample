@@ -135,12 +135,11 @@ p:after {
 /* //写真部分 */
 /* トップページに戻る部分 */
 #page_top {
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 70px;
   position: fixed;
   right: 0;
   bottom: 0;
-  opacity: 0.6s;
 }
 #page_top a {
   position: relative;
@@ -156,8 +155,8 @@ p:after {
   font-size: 55px;
   color: white;
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   top: -20px;
 }
 /* //トップページに戻る部分 */
